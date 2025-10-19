@@ -7,9 +7,20 @@
 Automates finding and tapping valid **sets** on a 3×3 Android board using ADB + OpenCV.
 Automates finding and tapping valid **sets** on a 3×3 board captured from an Android device via ADB.
 
+
+
 - **Detection:** shape (triangle / square / circle), shade (empty / stripe / full), color (red / green / blue via templates)
 - **Engine:** OpenCV (edges + ORB), HSV heuristics, jitter alignment, low-confidence stripe bias
 - **Bot:** picks valid sets, taps them, rescans, repeats until no set or accuracy drops
+
+---
+
+
+## 🎥 Demo
+
+Here’s the solver in action:
+
+![Demo running on Android](media/demo.gif)
 
 ---
 
