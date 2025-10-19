@@ -1,0 +1,28 @@
+# .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.python-version
+
+# Virtual envs
+venv/
+.venv/
+env/
+ENV/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editor junk
+.vscode/
+.idea/
+
+# Logs & dumps
+*.log
+
+# Optional: if you don’t want to commit big PNGs during dev
+# *.png
