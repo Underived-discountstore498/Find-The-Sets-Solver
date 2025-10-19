@@ -71,7 +71,7 @@ MAX_JITTER_EVALS = 25
 
 # Stripe bias when confidence is low
 STRIPE_BIAS_THRESHOLD = 0.7
-STRIPE_BIAS_BOOST = 0.2
+STRIPE_BIAS_BOOST = 0.18
 STRIPE_OVERRIDE_THRESHOLD = 0.40
 # ===============================================================
 
@@ -338,6 +338,21 @@ def _apply_stripe_bias_if_low_conf(combined_scores):
         if best_score < STRIPE_OVERRIDE_THRESHOLD:
             best_shape = max(boosted.items(), key=lambda kv: kv[1])[0][0]
             return (best_shape, "stripe"), best_score
+    return best_label, best_score
+
+def _apply_circle_bias_if_low_conf(combined_scores):
+    if not combined_scores:
+        return ("unknown","unknown"), 0.0
+    best_label, best_score = max(combined_scores.items(), key=lambda kv: kv[1])
+    if best_score < STRIPE_BIAS_THRESHOLD:
+        boosted = dict(combined_scores)
+        for (shape, shade), sc in list(boosted.items()):
+            if shape == "circle":
+                boosted[(shape, shade)] = sc + STRIPE_BIAS_BOOST
+        best_label, best_score = max(boosted.items(), key=lambda kv: kv[1])
+        if best_score < STRIPE_OVERRIDE_THRESHOLD:
+            best_shade = max(boosted.items(), key=lambda kv: kv[1])[0][1]
+            return ("circle", best_shade), best_score
     return best_label, best_score
 
 def classify_shape_shade(inner_bgr, template_lib):
