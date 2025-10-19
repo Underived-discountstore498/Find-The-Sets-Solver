@@ -1,0 +1,3 @@
+pip install opencv-python numpy pillow
+# Make sure adb is on PATH and your device shows up:
+adb devices
