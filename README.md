@@ -1,4 +1,10 @@
 # Find-The-Sets-Solver
+
+[![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-vision-green)](https://opencv.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+Automates finding and tapping valid **sets** on a 3×3 Android board using ADB + OpenCV.
 Automates finding and tapping valid **sets** on a 3×3 board captured from an Android device via ADB.
 
 - **Detection:** shape (triangle / square / circle), shade (empty / stripe / full), color (red / green / blue via templates)
